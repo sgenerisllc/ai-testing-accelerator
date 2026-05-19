@@ -31,12 +31,17 @@ graph LR
     B --> C[AI-Assisted<br/>Prompt-to-test, LLM debugging]
     C --> D[Self-Healing<br/>RAG docs, auto-repair]
     D --> E[Autonomous<br/>Agent-driven testing]
-    
-    style A fill:#ff6b6b
-    style B fill:#ffd93d
-    style C fill:#6bcf7f
-    style D fill:#4d96ff
-    style E fill:#a78bfa
+
+    classDef s1 fill:#fecaca,color:#000,stroke:#991b1b
+    classDef s2 fill:#fde68a,color:#000,stroke:#92400e
+    classDef s3 fill:#a7f3d0,color:#000,stroke:#065f46
+    classDef s4 fill:#bfdbfe,color:#000,stroke:#1e40af
+    classDef s5 fill:#ddd6fe,color:#000,stroke:#5b21b6
+    class A s1
+    class B s2
+    class C s3
+    class D s4
+    class E s5
 ```
 
 **Where is your team today? Where will they be in 8 weeks?**
