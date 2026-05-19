@@ -90,7 +90,7 @@ See [`sample_output.txt`](sample_output.txt) for full output.
    - "Three questions answered in 5 seconds — each with a citation."
    - "No hallucination: every claim points to a source doc."
    - "Replace tribal knowledge with a queryable knowledge base."
-   - "Drop in your real internal docs and you're production-ready in an hour."
+   - "Drop in your real internal docs, add retrieval evals, and you have a credible pilot quickly."
 
 ---
 

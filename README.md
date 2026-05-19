@@ -1,6 +1,6 @@
 # 🚀 AI-Augmented QA & Engineering Accelerator
 
-**Transform your testing team from manual executors to autonomous AI-augmented engineers.**
+**Transform your testing team from manual executors to AI-augmented quality engineers.**
 
 ---
 
@@ -8,15 +8,15 @@
 
 Modern engineering teams face an acceleration gap: manual testing can't keep pace with CI/CD velocity, while AI tools remain underutilized. This hands-on accelerator bridges that gap by training engineers in **Playwright automation**, **prompt engineering for test generation**, **RAG-based QA systems**, **self-healing test architectures**, and **autonomous testing agents**.
 
-Participants graduate with production-ready skills to build AI-powered testing pipelines, slashing test maintenance costs and accelerating release cycles.
+Participants graduate with practical skills to build AI-powered testing workflows, reduce test maintenance, and pilot agentic QA systems safely inside existing delivery pipelines.
 
 ---
 
 ## Why This Matters Now
 
-- **70% of test automation time** is spent on flaky tests and locator maintenance
-- **AI can generate tests 10× faster** than manual authoring—but most teams don't know how
-- **Autonomous agents** are replacing repetitive QA workflows—teams that don't adapt will fall behind
+- Flaky tests, brittle selectors, and slow triage still consume a meaningful share of QA and developer time
+- AI can accelerate test planning, authoring, and debugging, but teams need repeatable patterns and review gates
+- Agentic workflows are becoming useful for repetitive QA tasks when they are scoped, observable, and human-approved
 - **Hiring AI-savvy QA engineers** is expensive; **upskilling existing teams** delivers immediate ROI
 
 **This program turns your QA team into a strategic asset.**
@@ -50,15 +50,15 @@ graph LR
 
 ## Demo Projects Overview
 
-This repository includes 5 production-quality demos that showcase AI-augmented testing capabilities:
+This repository includes 5 production-pattern reference demos that showcase AI-augmented testing capabilities:
 
 | Demo | Capability | Business Impact |
 |------|------------|-----------------|
-| **01: Prompt-to-Test Generator** | Convert plain English → Playwright tests | 10× faster test authoring |
-| **02: AI Failure Analyzer** | Auto-diagnose failed CI runs | 80% reduction in triage time |
-| **03: Self-Healing Locators** | Intelligent selector fallback strategies | 60% fewer flaky tests |
-| **04: RAG QA Assistant** | Knowledge base for test documentation | Instant onboarding, zero tribal knowledge |
-| **05: Autonomous Agent** | Fully automated test generation & repair | Zero-touch test maintenance |
+| **01: Prompt-to-Test Generator** | Convert plain English → Playwright test drafts | Faster first-pass test authoring |
+| **02: AI Failure Analyzer** | Classify failed CI runs | Faster, more consistent triage |
+| **03: Self-Healing Locators** | Intelligent selector fallback strategies | Fewer locator-only failures |
+| **04: RAG QA Assistant** | Knowledge base for test documentation | Faster onboarding, less tribal knowledge |
+| **05: Autonomous Agent** | Agent loop for generation, execution, and repair | Pilot autonomous QA workflows safely |
 
 All demos run **offline by default** with optional AI API integration.
 
@@ -117,9 +117,9 @@ See [`docs/setup.md`](docs/setup.md) for detailed instructions.
 |--------------------|-------------------|
 | Manual test case writing (8 hrs/week) | AI-generated tests in seconds |
 | 3-hour debugging sessions for CI failures | AI root cause analysis in 30 seconds |
-| Flaky tests consume 40% of QA time | Self-healing locators prevent 60% of flakes |
+| Flaky tests consume 40% of QA time | Self-healing and quarantine workflows reduce repeat failures |
 | New QA hires take 3 months to onboard | RAG assistant enables same-day productivity |
-| Test maintenance overhead grows with codebase | Autonomous agents keep tests current |
+| Test maintenance overhead grows with codebase | Agentic workflows suggest targeted repairs with review gates |
 
 ---
 
@@ -130,31 +130,34 @@ See [`docs/setup.md`](docs/setup.md) for detailed instructions.
 - CI/CD integration with GitHub Actions
 - API testing with requests library
 
-### **Week 3-4: AI Augmentation**
+### **Week 3-4: Automation Mastery**
+- Accessibility-first locator strategy
+- Network mocking, auth state, and visual regression
+- Parallel execution, reporting, and CI artifacts
+
+### **Week 5-6: AI Augmentation**
 - Prompt-engineered test generation
 - LLM-powered failure analysis
-- Self-healing selector strategies
-
-### **Week 5-6: Advanced AI Systems**
+- AI safety, structured outputs, and evals
 - RAG-based QA knowledge assistant
 - MCP-style agentic workflows
 - CLI tools for AI testing
 
-### **Week 7-8: Capstone Project**
-Participants deploy a **custom autonomous testing agent** tailored to their company's tech stack:
-- Auto-generates tests from tickets
-- Self-heals on failure
-- Reports to Slack/Jira
-- Runs in CI/CD
+### **Week 7-8: Autonomous Systems + Capstone**
+Participants build a **pilot-ready QA workflow** tailored to their company's tech stack:
+- Generates or reviews tests from tickets or PR context
+- Analyzes failures and suggests repairs
+- Uses confidence gates, cost controls, and audit logs
+- Integrates with CI, Slack, Jira, or GitHub in a controlled mode
 
 ---
 
 ## Curriculum Highlights
 
-- **40 hours** of instructor-led training (alternate weekdays)
-- **20+ hands-on labs** from beginner to advanced
-- **5 production-grade demos** to customize
-- **Capstone project** with live code review
+- **48 hours** of instructor-led training (Mon/Wed/Fri)
+- **13 core labs + advanced stretch labs**
+- **5 production-pattern demos** to customize
+- **Pilot-ready capstone project** with live code review
 - **30-day post-training support**
 
 See [`curriculum/roadmap.md`](curriculum/roadmap.md) for the full learning path.
@@ -163,16 +166,18 @@ See [`curriculum/roadmap.md`](curriculum/roadmap.md) for the full learning path.
 
 ## ROI: Why This Investment Pays Off
 
-**Cost of NOT Training:**
-- $150K/year in flaky test firefighting (3 QA × 40% time × $125K salary)
-- $80K/year in delayed releases (2 weeks/quarter × $40K opportunity cost)
-- $200K/year hiring AI-savvy QA engineers instead of upskilling
+Illustrative model for a 6-person QA team at $125K average fully loaded cost:
 
-**With This Program:**
-- **$500/participant × 6 engineers = $3,000 total**
-- Reduce test maintenance by 60%: **$90K/year saved**
-- Accelerate releases by 25%: **$20K/quarter gained**
-- **30× ROI in first year**
+| Metric | Baseline | Target After Adoption | Annual Value |
+|--------|----------|-----------------------|--------------|
+| Time on flaky tests | 40% | 15% | $187K |
+| CI triage time | 3 hrs/failure | 30 min/failure | $60K |
+| Test authoring | 8 hrs/week | 1 hr/week | $110K |
+| New-hire onboarding | 12 weeks | 4 weeks | $45K |
+
+**Estimated annual value:** ~$400K  
+**6-person cohort investment:** $3,000  
+**Potential ROI:** up to ~130× when the workflows are adopted and measured
 
 ---
 
@@ -219,7 +224,7 @@ See [`curriculum/roadmap.md`](curriculum/roadmap.md) for the full learning path.
 
 ```
 ai-testing-accelerator/
-├── demos/           # 5 production-ready showcase projects
+├── demos/           # 5 production-pattern showcase projects
 ├── labs/            # Hands-on exercises (beginner → advanced)
 ├── curriculum/      # Weekly plans & learning outcomes
 ├── proposal/        # Executive pitch materials

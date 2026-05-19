@@ -131,9 +131,13 @@ def plan(perception: Perception) -> TestPlan:
 
 def generate_test_code(test_plan: TestPlan, intent: str, repaired: bool = False) -> str:
     """Render a Playwright test from the plan."""
-    repair_comment = "# Auto-repaired: added explicit enabled-state wait\n    " if repaired else ""
+    repair_comment = (
+        "# Auto-repaired suggestion: add an explicit enabled-state wait before the final action\n"
+        "    # expect(page.get_by_role('button')).to_be_enabled(timeout=10000)\n    "
+        if repaired else ""
+    )
     steps_code = "\n    ".join(
-        f"# Step {i}: {step}\n    page.wait_for_load_state('networkidle')"
+        f"# Step {i}: {step}\n    expect(page.locator('body')).to_be_visible()"
         for i, step in enumerate(test_plan.steps, start=1)
     )
     return f'''"""

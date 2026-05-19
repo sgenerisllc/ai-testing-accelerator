@@ -1,14 +1,14 @@
 # Demo 05: Autonomous Playwright Agent
 
-**The crown jewel: an agent loop that receives an intent, plans, generates a test, runs it, analyzes failure, and repairs — all autonomously.**
+**An agent loop that receives an intent, plans, generates a test, runs it, analyzes failure, and suggests or applies a bounded repair.**
 
 ---
 
 ## What This Demo Proves
 
-- AI agents can replace entire manual QA workflows
+- AI agents can automate bounded slices of repetitive QA workflows
 - The **perceive → plan → act → reflect** loop is universal across testing tools
-- Even with simulated execution, the pattern is impressive and ready to drop a real Playwright runtime into
+- Simulated execution keeps the demo deterministic while showing where a real Playwright runtime fits
 - This is the future of testing teams — the participants build this in Week 7
 
 ---
@@ -89,7 +89,7 @@ See [`sample_output.txt`](sample_output.txt) for the full run.
 ### The Demo Script (3 minutes — the headline demo)
 
 1. **Set the stage** (20s)  
-   "Here's the punchline of this entire program. Watch an agent that does everything a junior QA engineer does — but in 4 seconds."
+   "Here's the punchline of this program: a bounded agent loop that can plan, execute, diagnose, and retry a test workflow."
 
 2. **Run with a clean intent** (40s)
    ```bash
@@ -107,11 +107,11 @@ See [`sample_output.txt`](sample_output.txt) for the full run.
    ```bash
    cat ai-testing-accelerator/demos/05-autonomous-playwright-agent/generated/test_verify_checkout_flow.py
    ```
-   Point out: real Playwright code, ready to commit.
+   Point out: candidate Playwright code, ready for app-specific selectors, assertions, and review.
 
 5. **Land the message** (30s)  
    - "Now imagine 100 of these running in parallel against your codebase every night."
-   - "Tests stay current. Flakes get repaired. Your QA team focuses on strategy, not maintenance."
+   - "Tests get repair suggestions with confidence gates. Your QA team focuses on higher-leverage review and strategy."
    - "This is the capstone project — every participant ships one of these by Week 8."
 
 ---
@@ -169,9 +169,11 @@ flowchart TB
 The default demo uses simulated execution. To go production:
 
 1. Install Playwright: `pip install playwright && playwright install`
-2. Replace `runtime.mock_execute()` with `subprocess.run(["pytest", test_file])`
-3. Set `OPENAI_API_KEY` for real LLM reasoning in `phases.py`
-4. Add observability (Langsmith, Helicone, or DataDog)
+2. Replace `runtime.mock_execute()` with a real pytest or Playwright runner
+3. Parse stdout, stderr, screenshots, traces, and exit codes into structured failure records
+4. Add schema validation, confidence gates, budget caps, and human approval for patches
+5. Set a model provider key only after adding redaction, retries, and evals
+6. Add observability through structured logs, traces, cost reporting, and outcome tracking
 
 ---
 

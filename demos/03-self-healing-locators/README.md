@@ -7,7 +7,7 @@
 ## What This Demo Proves
 
 - Brittle CSS selectors (`#submit-btn-v2`) break the moment frontend code changes
-- A layered fallback strategy — **test-id → role+name → text → AI suggestion** — survives 80%+ of changes
+- A layered fallback strategy — **test-id → role+name → text → AI suggestion** — survives many common selector changes when semantic signals remain stable
 - Self-healing tests reduce flaky failures and maintenance burden
 - The same pattern works in Playwright, Selenium, and Cypress
 
@@ -117,7 +117,7 @@ flowchart TB
 | **2. Test-ID** | Stable contract with dev team | Missing test-ids on new components |
 | **3. Role + Name** | Accessibility-first, semantic | Aria labels change |
 | **4. Text Match** | User-visible content | Copy changes / i18n |
-| **5. AI Vision** | Pixel/semantic understanding | (always works — but costly) |
+| **5. AI Vision** | Pixel/semantic understanding | Costly, slower, and still needs confidence gates |
 
 ---
 
@@ -135,7 +135,7 @@ flowchart TB
 
 The default demo is **rule-based** (no AI). Real AI integration would:
 
-- **Vision-based fallback:** GPT-4V identifies the button by image
+- **Vision-based fallback:** a vision-capable model identifies the button from screenshot and DOM context
 - **DOM semantic search:** Embedding-based "find the button that means 'Buy'"
 - **Historical learning:** Train on past selector drift patterns
 - **Auto-PR generation:** Open a pull request with the suggested fix

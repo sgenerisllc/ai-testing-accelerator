@@ -110,7 +110,7 @@ def try_text(elements: list[Element], text: str) -> Element | None:
 
 def ai_fallback(elements: list[Element], description: str) -> Element | None:
     """Stub: where an LLM/vision model would plug in. Offline returns None."""
-    # In production: send screenshot + DOM to GPT-4V, ask which element matches.
+    # In production: send screenshot + DOM to a vision-capable model and ask which element matches.
     return None
 
 

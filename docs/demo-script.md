@@ -20,7 +20,7 @@ A complete, timed script for presenting this repository to engineering leaders.
 
 > "Most QA teams are stuck in 2018: manual test writing, hours debugging flaky tests, tribal knowledge locked in senior engineers' heads.
 >
-> Today I'm going to show you what 2026 QA looks like. Five demos. Each one solves a real pain point. All running locally, no cloud, no setup. Then we'll talk about what it would take to bring this to your team in 8 weeks."
+> Today I'm going to show you what 2026 QA workflows can look like. Five demos. Each one targets a real pain point. All running locally, no cloud, no setup. Then we'll talk about what it would take to pilot this with your team in 8 weeks."
 
 Open the README in browser. Scroll past the maturity model.
 
@@ -43,7 +43,7 @@ python generator.py "test user login with valid credentials"
 python generator.py "verify checkout flow with credit card payment"
 ```
 
-**Land it:** "Five seconds. Real Playwright code. Accessibility-first locators. Imagine this against your Jira backlog."
+**Land it:** "Five seconds. A solid first draft with accessibility-first locators. Imagine this as a reviewed starting point against your Jira backlog."
 
 ---
 
@@ -103,24 +103,24 @@ python rag.py "What is the flaky test policy?"
 python rag.py "Can I disable a test?"
 ```
 
-**Land it:** "Every answer cites a doc. Zero hallucination. Drop in your internal Confluence and your new hires are productive day one."
+**Land it:** "Every answer cites a doc. The system has a place to say 'not found' instead of guessing. Drop in your internal docs, add retrieval evals, and new hires get useful answers faster."
 
 ---
 
 ## Demo 5: Autonomous Agent (120s — the headline)
 
-**The pain:** "All four of the above still need a human in the loop. What if we removed the human?"
+**The pain:** "All four of the above still need a human manually wiring the loop together. What if we automated the bounded loop and kept humans on approval?"
 
 ```bash
 cd ../05-autonomous-playwright-agent
 python agent.py --intent "verify checkout flow" --force-fail
 ```
 
-**Watch the audience.** The perceive → plan → act → reflect → act-again loop is mesmerizing.
+**Watch the audience.** The perceive → plan → act → reflect → act-again loop is the important concept.
 
 **Pause at the failure.** Say: "Watch what happens now."
 
-**Pause at the recovery.** Say: "It diagnosed itself. Repaired itself. Passed."
+**Pause at the recovery.** Say: "It diagnosed the failure, applied a bounded repair in this demo, and re-ran."
 
 **Show the generated file:**
 
@@ -128,7 +128,7 @@ python agent.py --intent "verify checkout flow" --force-fail
 cat generated/test_verify_checkout_flow.py
 ```
 
-**Land it:** "This is what every participant builds in week 8 — customized to their company's stack. This is the future of QA, and you can have it in 60 days."
+**Land it:** "This is the pattern every participant adapts in week 8 — customized to their company's stack, with confidence gates and a production hardening plan."
 
 ---
 
@@ -136,7 +136,7 @@ cat generated/test_verify_checkout_flow.py
 
 > "We just covered five capabilities in 10 minutes. In an 8-week program, your team builds each of these and customizes them to your stack.
 >
-> The investment is $500 per participant — $3,000 for a 6-person team. The expected savings, conservatively, are 90× that in the first year.
+> The investment is $500 per participant — $3,000 for a 6-person team. In teams that adopt the workflows and measure the baseline, the ROI model can reach up to ~130×.
 >
 > Three next steps: [hold up three fingers]
 >
@@ -153,11 +153,11 @@ cat generated/test_verify_checkout_flow.py
 | Question | Quick Answer |
 |----------|--------------|
 | "Does this work with our stack?" | Yes — agent patterns are stack-agnostic. We adapt during pre-assessment. |
-| "Do we need to buy OpenAI credits?" | No — demos work offline. Real production use is ~$50/month per team. |
+| "Do we need to buy OpenAI credits?" | No — demos work offline. Pilot costs vary by model and usage; add budget caps before production. |
 | "What about data privacy?" | We teach on-prem / local-model patterns. No customer data leaves your environment. |
 | "How is this different from Copilot?" | Copilot helps individuals write code. This builds team-level autonomous systems. |
 | "Can our DevOps team take it?" | Absolutely — DevOps + QA + SDETs are the ideal audience. |
-| "What if a participant falls behind?" | Office hours + recordings + buddy system. 95% completion rate historically. |
+| "What if a participant falls behind?" | Office hours, recordings, buddy reviews, and scoped capstone tracks. |
 
 ---
 

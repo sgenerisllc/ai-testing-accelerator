@@ -131,7 +131,7 @@ ai-testing-accelerator/
 ├── requirements.txt
 ├── proposal/                   ← Commercial proposal (executive + 1-pager)
 ├── curriculum/                 ← Roadmap, weekly plan, learning outcomes
-├── demos/                      ← 5 production-quality showcase demos
+├── demos/                      ← 5 production-pattern showcase demos
 ├── labs/                       ← Hands-on exercises (beginner → advanced)
 ├── capstone/                   ← Final project guidelines
 ├── architecture/               ← System design with Mermaid diagrams

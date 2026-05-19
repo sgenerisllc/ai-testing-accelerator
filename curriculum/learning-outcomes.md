@@ -38,7 +38,7 @@
 ## AI Augmentation Skills
 
 ### Prompt Engineering
-- Apply few-shot, chain-of-thought, and structured output techniques
+- Apply few-shot examples, task decomposition, and structured output techniques
 - Design prompts that generate executable Playwright tests
 - Use system prompts to constrain LLM behavior
 - Evaluate prompt quality with reproducible benchmarks
@@ -61,6 +61,13 @@
 - Design tool definitions for LLM consumption
 - Build multi-step agent loops with reflection
 - Implement guardrails and safety checks
+
+### AI Safety, Evals & Governance
+- Define eval datasets for generated tests, failure analysis, and RAG answers
+- Use schemas, validators, and deterministic checks before acting on model output
+- Add human approval gates for code changes, CI changes, and external notifications
+- Redact secrets and sensitive data before sending context to model providers
+- Log prompts, responses, tool calls, costs, and outcomes for audit and debugging
 
 ### CLI Tool Development
 - Build CLIs with `click` or `typer`
@@ -85,8 +92,9 @@
 ### Autonomous Agents
 - Architect agent loops (perceive → plan → act → reflect)
 - Integrate test generation, execution, and repair
-- Deploy agents to run in CI/CD pipelines
-- Monitor and observe agent behavior in production
+- Run agents in controlled CI/CD workflows
+- Monitor and observe agent behavior before production rollout
+- Write rollout and rollback plans for agentic QA workflows
 
 ---
 
@@ -116,10 +124,10 @@ After completion, participants will demonstrate:
 | Competency | Evidence |
 |------------|----------|
 | **Write a Playwright test from scratch in < 10 min** | Timed lab in Week 4 |
-| **Generate a 10-test suite from a Jira ticket using AI** | Demo 01 deep dive |
+| **Generate a test plan and Playwright drafts from a Jira ticket using AI** | Demo 01 deep dive |
 | **Diagnose a CI failure in < 60 seconds** | Demo 02 hands-on |
 | **Build a RAG assistant for company docs** | Demo 04 customization |
-| **Deploy an autonomous testing agent** | Capstone project |
+| **Ship a pilot-ready autonomous QA workflow** | Capstone project |
 | **Present AI testing strategy to leadership** | Capstone demo day |
 
 ---
@@ -130,8 +138,8 @@ Participants earn the **AI-Augmented QA Engineer** certificate by:
 
 1. ✅ Attending ≥70% of live sessions
 2. ✅ Completing all 5 demo deep-dives
-3. ✅ Submitting all 12 mandatory labs
-4. ✅ Delivering a capstone project that passes instructor code review
+3. ✅ Submitting the required core lab set for their cohort track
+4. ✅ Delivering a capstone project that passes instructor code review and includes a production hardening plan
 
 ---
 

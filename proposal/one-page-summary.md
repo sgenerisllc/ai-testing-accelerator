@@ -7,9 +7,9 @@
 
 ### The Pitch
 
-**Transform your QA team from manual executors to autonomous AI-augmented engineers in 8 weeks.**
+**Transform your QA team from manual executors to AI-augmented quality engineers in 8 weeks.**
 
-A hands-on accelerator covering Python automation, Playwright, CI/CD, prompt engineering, RAG, MCP-style workflows, CLI tools, and Playwright agents — taught through live sessions and real, production-quality demos.
+A hands-on accelerator covering Python automation, Playwright, CI/CD, prompt engineering, RAG, MCP-style workflows, CLI tools, and Playwright agents — taught through live sessions and runnable production-pattern demos.
 
 ---
 
@@ -41,14 +41,14 @@ A hands-on accelerator covering Python automation, Playwright, CI/CD, prompt eng
 
 ### What Participants Build
 
-5 production-grade demos + 1 capstone project:
+5 production-pattern demos + 1 pilot-ready capstone project:
 
 1. **Prompt-to-Test Generator** — Plain English → Playwright tests
 2. **AI Failure Analyzer** — Auto-triage CI failures
 3. **Self-Healing Locators** — Resilient selector strategies
 4. **RAG QA Assistant** — Knowledge-grounded test docs
-5. **Autonomous Agent** — Self-generating, self-repairing tests
-6. **Capstone** — Custom agent for participant's company stack
+5. **Autonomous Agent** — Controlled generation, execution, and repair loop
+6. **Capstone** — Custom QA workflow for participant's company stack
 
 ---
 
@@ -72,7 +72,7 @@ For a 6-person QA team:
 | 3× faster onboarding | $45K saved |
 | **Total annual savings** | **~$400K** |
 | **Investment** | **$3,000** |
-| **ROI** | **130×** |
+| **Potential ROI** | **Up to ~130× when adopted and measured** |
 
 ---
 

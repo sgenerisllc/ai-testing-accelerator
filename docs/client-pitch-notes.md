@@ -8,9 +8,9 @@ Internal notes for the sales/business development team. Use these to tailor pitc
 
 > "Your QA team is doing 2018 work in 2026. They're hand-writing tests, spending hours triaging flakes, and losing knowledge every time someone leaves.
 >
-> We turn them into 2026 engineers: AI-augmented, agent-driven, autonomous. In 8 weeks. For $500 per person.
+> We turn them into 2026 engineers: AI-augmented, agent-literate, and ready to pilot safer autonomous QA workflows. In 8 weeks. For $500 per person.
 >
-> The math: $3,000 investment → ~$400K saved in year one. Want to see five demos that prove it?"
+> The model: $3,000 investment → up to ~$400K annual value if the workflows are adopted and measured. Want to see five demos that make the path concrete?"
 
 ---
 
@@ -47,7 +47,7 @@ Internal notes for the sales/business development team. Use these to tailor pitc
 **Lead with:** CI reliability, deployment frequency, cost controls.
 
 **Hot buttons:**
-- "Self-healing tests reduce CI flake rate to under 2%."
+- "Self-healing and quarantine workflows can reduce repeat CI flakes when paired with ownership and review."
 - "AI failure analyzer cuts on-call burden by 80%."
 - "Our patterns work with your stack — GitHub Actions, GitLab CI, Jenkins, all of it."
 
@@ -82,7 +82,7 @@ For enterprise (3+ cohorts/year): custom quote, typically $300/head + retainer.
 
 Don't disclose internal costs. Reframe:
 
-> "Pricing reflects the value, not our cost. Our customers see ~130× ROI in year one. We're priced to be obvious-yes for any team feeling QA pain."
+> "Pricing reflects the value, not our cost. The ROI model can reach up to ~130× when teams adopt the workflows and measure baseline improvements. We're priced to be an obvious pilot for teams feeling QA pain."
 
 ### "Can we pilot with 2-3 people first?"
 
@@ -100,15 +100,15 @@ Better pitch: "Pick your 3 most curious engineers. They become internal champion
 
 ### "We can't move our data to OpenAI."
 
-> "Neither can our healthcare and fintech customers. Every demo runs offline. For production, we teach local-model patterns: Llama 3 via Ollama, sentence-transformers, etc. No data leaves your environment."
+> "Every demo runs offline. For production, we teach local-model and redaction patterns, including local inference through tools like Ollama and local embeddings. Sensitive data does not need to leave your environment."
 
 ### "Our team is too junior."
 
-> "Half our participants are mid-level QA with 2-3 years experience. The curriculum starts with Python and Playwright fundamentals. By Week 4 even juniors are writing AI-augmented tests. By Week 8 they ship autonomous agents."
+> "The curriculum starts with Python and Playwright fundamentals. By Week 4 juniors can write and review solid automated tests. By Week 8 they can contribute to a scoped AI-augmented QA workflow."
 
 ### "We don't have time for an 8-week program."
 
-> "It's 6 hours of live session per week — same as one good engineering all-hands. The labs are self-paced. And the program pays for itself in saved engineering hours by Week 4."
+> "It's 6 hours of live session per week. The labs are self-paced, and the capstone is scoped to one high-leverage workflow rather than a giant platform rewrite."
 
 ### "Can we just buy your demo code and figure it out ourselves?"
 
@@ -130,17 +130,13 @@ Always offer the **free demo session** as a low-friction next step:
 
 > "Based on what you've shared, this seems like a fit. The next step is a 30-minute discovery call. Tuesday or Thursday work better?"
 
-### The Time-Pressure Close
-
-> "We have one more cohort spot opening next month, then nothing until Q3. Want me to hold the spot while you confirm internally?"
-
 ### The Pilot Close
 
-> "If you're not 100% sure, let's start with one cohort of 6. If your team isn't transformed by Week 8, we'll discount the next cohort by 50%. That's our standard win-win."
+> "If you're not 100% sure, let's start with one cohort of 6 and pick one measurable workflow. By demo day, leadership can decide whether it earns a production-hardening phase."
 
 ### The CFO Close
 
-> "Forward this one-pager to your CFO: [link]. The ROI math is on page 1. If they say no, I'll buy you lunch."
+> "Forward this one-pager to your CFO: [link]. The assumptions are on page 1, and we can tune the model to your team's actual flake rate and triage cost."
 
 ---
 

@@ -9,11 +9,11 @@
 
 Software teams are under pressure to ship faster, with higher quality, on a shrinking testing budget. Traditional automation has hit a ceiling: test maintenance overhead is exploding, flaky tests erode developer trust, and CI pipelines spend more time triaging failures than catching real defects.
 
-**AI-augmented testing is the next frontier.** Teams adopting prompt-engineered test generation, RAG-grounded debugging assistants, and autonomous testing agents are seeing:
+**AI-augmented testing is the next frontier.** Teams adopting prompt-engineered test generation, RAG-grounded debugging assistants, and scoped autonomous agents can target:
 
 - **70% reduction** in test authoring time
 - **60% fewer** flaky test incidents
-- **3× faster** release cycles
+- Faster release feedback loops through better CI triage and selective automation
 - **80% reduction** in CI failure triage
 
 This proposal outlines a focused, hands-on accelerator that upskills your team to operate at this level.
@@ -35,13 +35,13 @@ This proposal outlines a focused, hands-on accelerator that upskills your team t
 
 By the end of the program, participants will be able to:
 
-1. **Build production-grade Playwright test suites** in Python
+1. **Build maintainable Playwright test suites** in Python
 2. **Author CI/CD pipelines** with intelligent quality gates
 3. **Apply prompt engineering** to generate, refactor, and debug tests
 4. **Build RAG systems** that ground LLMs in internal documentation
 5. **Design MCP-style agentic workflows** for testing automation
 6. **Create CLI tools** that integrate AI into developer daily workflows
-7. **Deploy autonomous Playwright agents** that self-heal and self-repair
+7. **Build pilot-ready Playwright agents** with human approval gates, cost controls, and observability
 
 ---
 
@@ -51,9 +51,9 @@ By the end of the program, participants will be able to:
 |-------|-------|-------|
 | **Foundations** | 1-2 | Python fundamentals, Playwright basics, CI/CD setup |
 | **Automation Mastery** | 3-4 | API testing, advanced selectors, parallel execution |
-| **AI Augmentation** | 5-6 | Prompt engineering, RAG, MCP workflows, CLI tools |
-| **Autonomous Systems** | 7 | Building Playwright agents, self-healing tests |
-| **Capstone** | 8 | Production deployment of custom agent |
+| **AI Augmentation** | 5-6 | Prompt engineering, evals, RAG, MCP workflows, CLI tools |
+| **Autonomous Systems** | 7 | Building Playwright agents, self-healing tests, guardrails |
+| **Capstone** | 8 | Pilot implementation and production hardening plan |
 
 See [`curriculum/roadmap.md`](../curriculum/roadmap.md) and [`curriculum/weekly-plan.md`](../curriculum/weekly-plan.md) for full breakdown.
 
@@ -61,8 +61,8 @@ See [`curriculum/roadmap.md`](../curriculum/roadmap.md) and [`curriculum/weekly-
 
 ## What Sets This Program Apart
 
-### 1. **Real Demo Projects, Not Toy Examples**
-This repository ships with 5 production-quality demos participants will dissect, extend, and customize:
+### 1. **Production-Pattern Demos, Not Slideware**
+This repository ships with 5 runnable reference demos participants will dissect, extend, and customize:
 - Prompt-to-Test Generator
 - AI Failure Analyzer
 - Self-Healing Locators
@@ -70,7 +70,7 @@ This repository ships with 5 production-quality demos participants will dissect,
 - Autonomous Playwright Agent
 
 ### 2. **Capstone with Real Impact**
-Each participant deploys a custom autonomous testing agent tailored to their team's tech stack. Code reviewed by instructors. Production-ready by graduation.
+Each participant ships a pilot-ready QA workflow tailored to their team's tech stack. Code is reviewed by instructors and paired with a production hardening plan.
 
 ### 3. **No Vendor Lock-In**
 We teach principles and patterns that work with any LLM (OpenAI, Anthropic, local models). No proprietary platforms.
@@ -88,7 +88,7 @@ Slack-based Q&A for 30 days after completion. Real-world implementation guidance
 | **Lab Repository** | Private fork of this repo for each cohort |
 | **Pre-Assessment Report** | Baseline skills assessment with personalized learning paths |
 | **Completion Certificates** | Signed certificates for each participant |
-| **Capstone Project** | Production-ready agent customized to participant's domain |
+| **Capstone Project** | Pilot-ready workflow customized to participant's domain |
 | **Completion Report** | Cohort-level skill gains, demo summaries, ROI projections |
 | **30-Day Support** | Post-program Slack channel for implementation Q&A |
 
@@ -103,7 +103,7 @@ Slack-based Q&A for 30 days after completion. Real-world implementation guidance
 | **Total program investment** | **$3,000** |
 
 ### What's Included
-- 40 hours live instruction
+- 48 hours live instruction
 - 8 weeks instructor access
 - All lab materials and demos
 - Recordings and certificates
@@ -119,7 +119,7 @@ Slack-based Q&A for 30 days after completion. Real-world implementation guidance
 
 ## Expected ROI
 
-For a 6-person QA team at $125K average salary:
+Illustrative model for a 6-person QA team at $125K average fully loaded cost:
 
 | Metric | Pre-Program | Post-Program | Annual Savings |
 |--------|-------------|--------------|----------------|
@@ -130,7 +130,7 @@ For a 6-person QA team at $125K average salary:
 
 **Total estimated annual savings: ~$400K**  
 **Investment: $3,000**  
-**ROI: 130×**
+**Potential ROI: up to ~130× when adopted and measured**
 
 ---
 

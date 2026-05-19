@@ -89,18 +89,19 @@ flowchart LR
 
 ## Phase 3: AI Augmentation (Weeks 5-6)
 
-**Goal:** Apply AI techniques to accelerate testing workflows.
+**Goal:** Apply AI techniques to accelerate testing workflows while keeping outputs measurable and reviewable.
 
 ### Topics
-- Prompt engineering principles (few-shot, chain-of-thought, structured output)
+- Prompt engineering principles (few-shot examples, decomposition, structured output)
 - LLM-powered test generation
 - AI failure analysis and root cause prediction
+- Evaluation datasets, confidence scoring, and human approval gates
 - RAG fundamentals: chunking, embedding, retrieval
 - MCP (Model Context Protocol) basics
 - Building CLI tools with Click/Typer
 
 ### Outcomes
-- Generate Playwright tests from plain English
+- Generate test plans and Playwright drafts from plain English
 - Build a RAG-grounded test documentation assistant
 - Create CLI tools that integrate AI into developer workflow
 
@@ -108,26 +109,26 @@ flowchart LR
 
 ## Phase 4: Autonomous Systems (Week 7)
 
-**Goal:** Build agents that operate without human intervention.
+**Goal:** Build agents that automate bounded QA workflows with explicit guardrails.
 
 ### Topics
 - Agent loop architecture (perceive → plan → act → reflect)
 - Self-healing test patterns
 - Test failure → repair workflows
 - Multi-step agent orchestration
-- Observability and guardrails
+- Observability, guardrails, cost controls, and rollback
 
 ### Outcomes
-- Deploy an autonomous Playwright agent
-- Demonstrate self-healing on a broken test suite
+- Demonstrate an autonomous Playwright agent in a controlled workflow
+- Demonstrate self-healing or repair suggestion on a broken test suite
 
 ---
 
 ## Phase 5: Capstone (Week 8)
 
-**Goal:** Apply everything to a real, production-grade project.
+**Goal:** Apply everything to a real, pilot-ready project with a production hardening plan.
 
-Each participant designs and deploys an autonomous testing agent customized for their team's tech stack.
+Each participant designs and demonstrates an AI-augmented QA workflow customized for their team's tech stack.
 
 See [`capstone/final-showcase.md`](../capstone/final-showcase.md) for capstone details.
 

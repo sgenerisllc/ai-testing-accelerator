@@ -1,8 +1,8 @@
 # 🏆 Capstone: Final Showcase
 
-Each participant ships a **production-ready autonomous testing agent** customized to their team's tech stack.
+Each participant ships a **pilot-ready AI-augmented QA workflow** customized to their team's tech stack.
 
-This is the moment everything clicks: 8 weeks of foundations, automation, AI, and agents converge into one cohesive deliverable.
+This is the moment everything clicks: 8 weeks of foundations, automation, AI, and agents converge into one cohesive deliverable that can be evaluated safely before production rollout.
 
 ---
 
@@ -16,23 +16,37 @@ Pick your actual company's stack — or a public open-source project. Examples:
 - Backend: Node, Python, Go, Java, .NET
 - CI: GitHub Actions, GitLab CI, CircleCI, Jenkins
 
-### 2. An Agent That Performs At Least 3 Of:
+### 2. One Primary Workflow
 
-- ✅ Auto-generates Playwright tests from Jira tickets or PR descriptions
-- ✅ Auto-analyzes failed CI runs and posts a structured report
-- ✅ Auto-repairs broken selectors using a self-healing strategy
-- ✅ Answers QA questions using a RAG system over your team's docs
-- ✅ Runs autonomously in CI and posts results to Slack/Jira
+Choose one workflow and make it work end-to-end:
 
-### 3. Production-Grade Polish
+- ✅ Generate Playwright test drafts from Jira tickets or PR descriptions
+- ✅ Analyze failed CI runs and post a structured report
+- ✅ Repair or suggest fixes for broken selectors using a self-healing strategy
+- ✅ Answer QA questions using a RAG system over your team's docs
+- ✅ Run a controlled CI workflow and post results to Slack, Jira, or GitHub
+
+### 3. Safety & Production Path
 
 - Clean, readable code (passes lint and review)
 - Comprehensive README in your project repo
 - Unit tests for critical paths
-- Cost controls (budget cap, caching)
-- Observability (structured logs)
+- Cost controls (budget cap, caching, retry limits)
+- Observability (structured logs, prompt/response audit trail)
+- Human approval gates for code changes, CI changes, and external notifications
+- A short production hardening plan covering secrets, rollout, ownership, and rollback
 
-### 4. A Demo Video (Optional but Recommended)
+### 4. Optional Stretch Capabilities
+
+If the primary workflow is stable, add one stretch item:
+
+- Second agent role, such as Reviewer or Analyst
+- Retrieval evals for a RAG assistant
+- GitHub draft PR creation for suggested repairs
+- Slack/Jira integration in dry-run mode
+- Flake trend dashboard or quarantine policy
+
+### 5. A Demo Video (Optional but Recommended)
 A 3-5 minute screen recording walking through your agent in action.
 
 ---
@@ -49,6 +63,8 @@ A 3-5 minute screen recording walking through your agent in action.
 | AI test-coverage gap analyzer for a code repo | Coverage-focused | ⭐⭐⭐ |
 | Visual-regression bot with auto-baseline-suggestion | UI-heavy products | ⭐⭐⭐⭐ |
 
+For cohorts with junior participants, a team capstone is recommended: 3-4 participants share one workflow and split ownership across ingestion, AI logic, execution, and reporting.
+
 ---
 
 ## Timeline
@@ -56,7 +72,7 @@ A 3-5 minute screen recording walking through your agent in action.
 | Week 8 Day | Activity |
 |------------|----------|
 | **Monday** | Scope confirmation + architecture review (30 min/participant) |
-| **Tuesday-Thursday** | Build (instructor on-call in cohort Slack) |
+| **Tuesday-Thursday** | Build, test, and harden (instructor on-call in cohort Slack) |
 | **Friday morning** | Final integration + rehearsal |
 | **Friday afternoon** | **🎬 Capstone Demo Day** |
 
@@ -80,24 +96,24 @@ Followed by 2 minutes of Q&A.
 | Criterion | Weight | What "Excellent" Looks Like |
 |-----------|--------|-----------------------------|
 | **Technical execution** | 30% | Clean code, runs reliably, handles edge cases |
-| **Real-world applicability** | 25% | Solves a genuine problem; deploy-ready |
-| **AI integration quality** | 20% | Thoughtful use of AI; sensible fallbacks |
+| **Real-world applicability** | 25% | Solves a genuine problem; has a credible production path |
+| **AI integration quality** | 20% | Thoughtful use of AI; evals, guardrails, and fallbacks included |
 | **Presentation clarity** | 15% | Confident, structured, time-managed |
 | **Innovation** | 10% | Goes beyond the demos; original ideas |
 
 ---
 
-## What Past Participants Have Built
+## Example Target Outcomes
 
-*(Examples — anonymized scenarios)*
+*(Representative outcomes to aim for.)*
 
-- **Fintech SDET:** Built a Slack bot that takes a Jira ticket and posts back a complete test plan + Playwright spec within 30 seconds. Adopted by their team within 2 weeks.
+- **Fintech SDET:** Slack bot that takes a Jira ticket and posts back a test plan plus Playwright draft in dry-run mode.
 
-- **E-commerce QA Lead:** Created a flaky test auto-quarantiner that reduced their team's CI flake rate from 8% to 1.2% in a month.
+- **E-commerce QA Lead:** Flaky-test classifier that identifies likely flakes, suggests quarantine, and tracks repeated failures.
 
-- **DevOps Engineer:** Shipped a GitHub Action that comments on every PR with AI-summarized test impact analysis. Now used company-wide.
+- **DevOps Engineer:** GitHub Action that comments on PRs with AI-summarized test impact and links to relevant test files.
 
-- **Healthcare QA Engineer:** RAG assistant over HIPAA compliance docs + test cases. Cut compliance audit prep time by 70%.
+- **Healthcare QA Engineer:** RAG assistant over compliance docs and test cases with citations and unanswered-question tracking.
 
 ---
 
@@ -112,7 +128,7 @@ Followed by 2 minutes of Q&A.
 
 ## After the Capstone
 
-Your capstone is **yours to keep and deploy**. We encourage you to:
+Your capstone is **yours to keep and harden for deployment**. We encourage you to:
 
 1. Open-source it (with your company's approval)
 2. Write a blog post about your learnings
@@ -132,4 +148,4 @@ By Demo Day Friday 9am:
 
 ---
 
-**Make it bold. Make it real. Make it ship.** 🚀
+**Make it real enough to evaluate, safe enough to trust, and clear enough to extend.**

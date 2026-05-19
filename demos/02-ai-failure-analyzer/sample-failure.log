@@ -1,0 +1,33 @@
+Running 24 tests using 4 workers
+
+  ✓  1 tests/auth.spec.ts:8:5 › user can log in (2.1s)
+  ✓  2 tests/auth.spec.ts:24:5 › invalid password shows error (1.4s)
+  ✓  3 tests/home.spec.ts:5:5 › homepage loads (0.9s)
+  ✗  4 tests/checkout.spec.ts:42:5 › user can complete checkout flow (30.2s)
+
+  1) tests/checkout.spec.ts:42:5 › user can complete checkout flow ─────────────
+
+    TimeoutError: page.click: Timeout 30000ms exceeded.
+    =========================== logs ===========================
+    waiting for locator('button.checkout-now')
+      locator resolved to <button class="checkout-now" disabled>Place order</button>
+      element is not enabled - waiting...
+      element is not enabled - waiting...
+      element is not enabled - waiting...
+    ============================================================
+
+      40 |     await page.getByLabel('Card number').fill('4242 4242 4242 4242');
+      41 |     await page.getByLabel('CVC').fill('123');
+    > 42 |     await page.click('button.checkout-now');
+         |                ^
+      43 |     await expect(page.getByRole('heading', { name: 'Order confirmed' })).toBeVisible();
+      44 |   });
+      45 | });
+
+        at /workspace/tests/checkout.spec.ts:42:12
+
+  Slow test file: tests/checkout.spec.ts (30.2s)
+
+  1 failed
+    tests/checkout.spec.ts:42:5 › user can complete checkout flow ──────────────
+  23 passed (1.2m)

@@ -61,6 +61,7 @@ secrets.json
 # Logs
 *.log
 logs/
+!demos/02-ai-failure-analyzer/sample-failure.log
 
 # OS
 Thumbs.db
