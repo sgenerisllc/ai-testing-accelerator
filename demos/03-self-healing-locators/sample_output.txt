@@ -1,0 +1,19 @@
+🩹 Self-Healing Locator Demo
+════════════════════════════════════════════════════════════
+Target action: click 'Buy now' button
+
+[1/5] Trying primary css               '#old-buy-button'
+      ❌ FAILED
+[2/5] Trying test id                   'buy-now'
+      ❌ FAILED
+[3/5] Trying role name                 role=button, name='Buy now'
+      ✅ SUCCESS — resolved to <button class="btn-primary" type="button" aria-label="Buy now">Buy now</button>
+
+✨ Healed in 3 step(s). Suggested test update:
+   - page.locator('#old-buy-button')
+   + page.get_by_role('button', name='Buy now')
+
+📊 Heal stats:
+   Strategies tried:     3
+   Final strategy:       ROLE_NAME
+   Time to heal:         0.0ms

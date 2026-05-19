@@ -1,0 +1,14 @@
+🧠 RAG QA Assistant
+════════════════════════════════════════════════════════════
+Question: How do I add a new test to the CI pipeline?
+
+📚 Retrieved 2 relevant document(s):
+   1. ci-pipeline.md               (relevance: 0.50)
+   2. testing-standards.md         (relevance: 0.20)
+
+💡 Answer:
+   To add a new test to the CI pipeline, place your spec file in the `tests/` directory. The CI workflow automatically discovers files matching `*.spec.ts` or `*.spec.py` and runs them in parallel shards. Tag your test with `@smoke` or `@regression` to control which CI stage executes it.
+
+🔖 Sources:
+   • knowledge_base/ci-pipeline.md
+   • knowledge_base/testing-standards.md

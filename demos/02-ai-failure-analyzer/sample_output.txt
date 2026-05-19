@@ -1,0 +1,24 @@
+🔍 AI Failure Analysis Report
+════════════════════════════════════════════════════════════
+Test:           tests/checkout.spec.ts:42
+Failure Type:   ELEMENT_DISABLED
+Severity:       HIGH
+Confidence:     92%
+
+Root Cause:
+  The target element is rendered but disabled when the click occurs.
+  This typically means form validation has not passed or required state (e.g., cart contents, address selection) is missing.
+
+Likely Causes (ranked):
+  1. [HIGH    ] Required form fields not filled before click
+  2. [MEDIUM  ] Cart/state not loaded — race condition
+  3. [LOW     ] Backend validation API returned an error
+
+Suggested Fix:
+  • Wait for the element to be enabled before clicking, and assert any prerequisite state explicitly.
+
+Fix Snippet:
+      await expect(page.locator('button.checkout-now'))
+          .toBeEnabled({ timeout: 10000 });
+      await page.click('button.checkout-now');
+

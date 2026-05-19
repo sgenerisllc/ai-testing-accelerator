@@ -1,0 +1,14 @@
+# Core dependencies for AI Testing Accelerator demos
+# All demos run offline by default - no API keys required.
+
+# Optional: enable real LLM calls by setting OPENAI_API_KEY
+# openai>=1.0.0
+
+# Optional: for advanced RAG features in Demo 04
+# sentence-transformers>=2.2.0
+
+# Testing
+pytest>=7.4.0
+
+# Code quality (development)
+black>=23.0.0

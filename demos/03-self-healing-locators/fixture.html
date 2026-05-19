@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Acme Store — Product Page</title>
+</head>
+<body>
+  <header>
+    <h1>Acme Wireless Headphones</h1>
+    <p>Premium noise-cancelling audio with 30-hour battery.</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="price-heading">
+      <h2 id="price-heading">$249.00</h2>
+      <p>Free shipping on orders over $200.</p>
+    </section>
+
+    <section aria-labelledby="actions-heading">
+      <h2 id="actions-heading" hidden>Actions</h2>
+
+      <!-- The old test referenced #old-buy-button.
+           The dev team refactored to use class + accessible role. -->
+      <button class="btn-primary" type="button" aria-label="Buy now">
+        Buy now
+      </button>
+
+      <button class="btn-secondary" type="button">
+        Add to cart
+      </button>
+
+      <a href="/wishlist" role="link">Save for later</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Acme Inc.</p>
+  </footer>
+</body>
+</html>
