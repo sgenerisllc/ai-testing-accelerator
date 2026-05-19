@@ -144,7 +144,7 @@ Yes. For enterprise clients (3+ cohorts/year), we offer:
 - Embedded consulting hours
 - White-labeled deliverables
 
-Contact [training@example.com](mailto:training@example.com) for enterprise quotes.
+Contact [sg@sgeneris.xyz](mailto:sg@sgeneris.xyz) for enterprise quotes.
 
 ---
 
@@ -180,6 +180,6 @@ See the [executive proposal](../proposal/executive-proposal.md) for full math.
 
 ## Still Have Questions?
 
-- **General inquiries:** [training@example.com](mailto:training@example.com)
+- **General inquiries:** [sg@sgeneris.xyz](mailto:sg@sgeneris.xyz)
 - **Live demo request:** Same email — ask for a free 30-min demo session
 - **Bulk pricing:** Same email — mention cohort size

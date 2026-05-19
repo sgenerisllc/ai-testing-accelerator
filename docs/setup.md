@@ -147,4 +147,4 @@ ai-testing-accelerator/
 3. **Check the [FAQ](faq.md)** for common questions
 4. **Explore the [architecture docs](../architecture/)** for system design
 
-For training inquiries: [training@example.com](mailto:training@example.com)
+For training inquiries: [sg@sgeneris.xyz](mailto:sg@sgeneris.xyz)

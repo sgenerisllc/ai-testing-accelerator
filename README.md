@@ -207,7 +207,7 @@ See [`curriculum/roadmap.md`](curriculum/roadmap.md) for the full learning path.
 
 ## Get Started
 
-📧 **Interested in training your team?** Contact us at [training@example.com](mailto:training@example.com)
+📧 **Interested in training your team?** Contact us at [sg@sgeneris.xyz](mailto:sg@sgeneris.xyz)
 
 📅 **Book a demo session:** See these demos in action with your use cases
 

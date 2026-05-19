@@ -86,7 +86,7 @@ AI-augmented testing is becoming the industry standard. Teams that adopt these p
 
 ### Get Started
 
-📧 [training@example.com](mailto:training@example.com)  
+📧 [sg@sgeneris.xyz](mailto:sg@sgeneris.xyz)  
 🔗 [github.com/yourusername/ai-testing-accelerator](https://github.com/yourusername/ai-testing-accelerator)
 
 **Book a free demo session for your team today.**

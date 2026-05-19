@@ -151,7 +151,7 @@ The AI-augmented testing space is moving fast. Teams that adopt these practices 
 
 ---
 
-**Contact:** [training@example.com](mailto:training@example.com)  
+**Contact:** [sg@sgeneris.xyz](mailto:sg@sgeneris.xyz)  
 **Demo Repository:** [github.com/yourusername/ai-testing-accelerator](https://github.com/yourusername/ai-testing-accelerator)
 
 ---
